@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(images/bg.png);
+    background-size: 150%;
+    background-color: #398DCF;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    font-size:36px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.699);
+    font-size: 46px;
+}
+
+.form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.253);
+}
+
+h6{
+    color: #F7630C;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+input{
+    background: transparent;
+    border-width: 0 0 1px 0;
+    outline: none;
+    margin: 15px;
+    transition: border-color,color  .5s,.5s ease-in-out;
+}
+
+input:focus{
+    border-color: #398DCF;
+    color: #398DCF;
+}
+
+#feeling{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button{
+    margin: auto;
+    width: 93%;
+    outline: 0;
+    cursor: pointer;
+    border: solid 1px #398DCF;
+    height: 40px;
+    background-color: transparent;
+    color: #398DCF;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color,color  .4s,.4s ease-in-out;
+}
+
+button:hover{
+    background-color: #398DCF;
+    color: white;
+}
+
+.entries{
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 10vh;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.253);
+}
+
+h2{
+    color: #2c6a99;
+    margin-bottom: 5px;
+}
+
+.con{
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 40%;
+    height: 10px;
+    background-color: rgb(233, 232, 232);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#entry{
+    color: #141414;
+    font-size: 34px;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.con2{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: center;
+    color: rgba(0, 0, 0, .7);
+}
+
+.con2 img{
+    width: 20px;
+    margin-right: 5px;
+    opacity: .6;
+}
+
+#temp{
+    margin-right: 30px;
+}
